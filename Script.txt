@@ -1,0 +1,1543 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local VapeV4 = Instance.new("ScreenGui")
+local Vape = Instance.new("Frame")
+local AimBotLegit = Instance.new("TextLabel")
+local TotemOfUndying = Instance.new("TextLabel")
+local YesCheat = Instance.new("TextLabel")
+local YesCheat_2 = Instance.new("TextLabel")
+local Vape_2 = Instance.new("Folder")
+local VA = Instance.new("ImageLabel")
+local PE = Instance.new("ImageLabel")
+local Settings = Instance.new("TextButton")
+local Login = Instance.new("Frame")
+local Vape_3 = Instance.new("Folder")
+local VA_2 = Instance.new("ImageLabel")
+local PE_2 = Instance.new("ImageLabel")
+local Username = Instance.new("TextBox")
+local Password = Instance.new("TextBox")
+local Login_2 = Instance.new("TextButton")
+local Circle = Instance.new("ImageLabel")
+local FirstTime = Instance.new("Frame")
+local Vape_4 = Instance.new("Folder")
+local VA_3 = Instance.new("ImageLabel")
+local PE_3 = Instance.new("ImageLabel")
+local Text = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local Done = Instance.new("TextButton")
+local Circle_2 = Instance.new("ImageLabel")
+local Configurations = Instance.new("Frame")
+local Vape_5 = Instance.new("Folder")
+local VA_4 = Instance.new("ImageLabel")
+local PE_4 = Instance.new("ImageLabel")
+local Config = Instance.new("Folder")
+local KeyConfig = Instance.new("TextBox")
+local Text_2 = Instance.new("Folder")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Done_2 = Instance.new("TextButton")
+local Circle_3 = Instance.new("ImageLabel")
+local VapeGUI = Instance.new("Frame")
+local Vape_6 = Instance.new("Folder")
+local VA_5 = Instance.new("ImageLabel")
+local PE_5 = Instance.new("ImageLabel")
+local TotemOfUndying_2 = Instance.new("TextButton")
+local Circle_4 = Instance.new("ImageLabel")
+local Aimbot = Instance.new("TextButton")
+local Circle_5 = Instance.new("ImageLabel")
+local Aimbot_2 = Instance.new("TextButton")
+local Circle_6 = Instance.new("ImageLabel")
+
+--Properties:
+
+VapeV4.Name = "VapeV4"
+VapeV4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+VapeV4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Vape.Name = "Vape"
+Vape.Parent = VapeV4
+Vape.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Vape.BackgroundTransparency = 0.250
+Vape.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Vape.BorderSizePixel = 2
+Vape.Position = UDim2.new(0, 0, 0.0664136559, 0)
+Vape.Size = UDim2.new(0, 195, 0, 297)
+Vape.Visible = false
+
+AimBotLegit.Name = "AimBotLegit"
+AimBotLegit.Parent = Vape
+AimBotLegit.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+AimBotLegit.BackgroundTransparency = 0.100
+AimBotLegit.BorderSizePixel = 0
+AimBotLegit.Position = UDim2.new(0, 0, 0.222222209, 0)
+AimBotLegit.Size = UDim2.new(0, 184, 0, 32)
+AimBotLegit.Font = Enum.Font.SourceSans
+AimBotLegit.Text = "AimBot - Legit"
+AimBotLegit.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimBotLegit.TextScaled = true
+AimBotLegit.TextSize = 14.000
+AimBotLegit.TextWrapped = true
+
+TotemOfUndying.Name = "TotemOfUndying"
+TotemOfUndying.Parent = Vape
+TotemOfUndying.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TotemOfUndying.BackgroundTransparency = 0.100
+TotemOfUndying.BorderSizePixel = 0
+TotemOfUndying.Position = UDim2.new(0, 0, 0.387205362, 0)
+TotemOfUndying.Size = UDim2.new(0, 184, 0, 32)
+TotemOfUndying.Font = Enum.Font.SourceSans
+TotemOfUndying.Text = "Totem of Undying - Executed"
+TotemOfUndying.TextColor3 = Color3.fromRGB(255, 255, 255)
+TotemOfUndying.TextScaled = true
+TotemOfUndying.TextSize = 14.000
+TotemOfUndying.TextWrapped = true
+
+YesCheat.Name = "YesCheat"
+YesCheat.Parent = Vape
+YesCheat.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+YesCheat.BackgroundTransparency = 0.100
+YesCheat.BorderSizePixel = 0
+YesCheat.Position = UDim2.new(0, 0, 0.548821568, 0)
+YesCheat.Size = UDim2.new(0, 184, 0, 32)
+YesCheat.Font = Enum.Font.SourceSans
+YesCheat.Text = "YesCheat+ - On"
+YesCheat.TextColor3 = Color3.fromRGB(255, 255, 255)
+YesCheat.TextScaled = true
+YesCheat.TextSize = 14.000
+YesCheat.TextWrapped = true
+
+YesCheat_2.Name = "YesCheat"
+YesCheat_2.Parent = Vape
+YesCheat_2.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+YesCheat_2.BackgroundTransparency = 0.100
+YesCheat_2.BorderSizePixel = 0
+YesCheat_2.Position = UDim2.new(0, 0, 0.734006703, 0)
+YesCheat_2.Size = UDim2.new(0, 184, 0, 32)
+YesCheat_2.Font = Enum.Font.SourceSans
+YesCheat_2.Text = "Autoclicker"
+YesCheat_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+YesCheat_2.TextScaled = true
+YesCheat_2.TextSize = 14.000
+YesCheat_2.TextWrapped = true
+
+Vape_2.Name = "Vape"
+Vape_2.Parent = Vape
+
+VA.Name = "VA"
+VA.Parent = Vape_2
+VA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VA.BorderSizePixel = 0
+VA.Size = UDim2.new(0, 90, 0, 51)
+VA.Image = "http://www.roblox.com/asset/?id=9375953215"
+
+PE.Name = "PE"
+PE.Parent = Vape_2
+PE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PE.BorderSizePixel = 0
+PE.Position = UDim2.new(0.440304577, 0, 0, 0)
+PE.Size = UDim2.new(0, 109, 0, 51)
+PE.Image = "http://www.roblox.com/asset/?id=9375955406"
+
+Settings.Name = "Settings"
+Settings.Parent = Vape
+Settings.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Settings.BackgroundTransparency = 0.300
+Settings.BorderColor3 = Color3.fromRGB(0, 255, 234)
+Settings.BorderSizePixel = 2
+Settings.Position = UDim2.new(0.769230783, 0, 0.841750741, 0)
+Settings.Size = UDim2.new(0, 45, 0, 47)
+Settings.Font = Enum.Font.SourceSans
+Settings.Text = "SETTINGS"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextScaled = true
+Settings.TextSize = 14.000
+Settings.TextWrapped = true
+
+Login.Name = "Login"
+Login.Parent = VapeV4
+Login.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Login.BackgroundTransparency = 0.100
+Login.BorderColor3 = Color3.fromRGB(0, 255, 247)
+Login.BorderSizePixel = 2
+Login.Position = UDim2.new(0.266423345, 0, 0.207395494, 0)
+Login.Size = UDim2.new(0, 595, 0, 361)
+Login.Visible = false
+
+Vape_3.Name = "Vape"
+Vape_3.Parent = Login
+
+VA_2.Name = "VA"
+VA_2.Parent = Vape_3
+VA_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VA_2.BorderSizePixel = 0
+VA_2.Size = UDim2.new(0, 268, 0, 140)
+VA_2.Image = "http://www.roblox.com/asset/?id=9375953215"
+
+PE_2.Name = "PE"
+PE_2.Parent = Vape_3
+PE_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PE_2.BorderSizePixel = 0
+PE_2.Position = UDim2.new(0.450879008, 0, 0, 0)
+PE_2.Size = UDim2.new(0, 326, 0, 140)
+PE_2.Image = "http://www.roblox.com/asset/?id=9375955406"
+
+Username.Name = "Username"
+Username.Parent = Login
+Username.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Username.BorderColor3 = Color3.fromRGB(0, 255, 247)
+Username.BorderSizePixel = 2
+Username.Position = UDim2.new(0.253781527, 0, 0.398891985, 0)
+Username.Size = UDim2.new(0, 293, 0, 72)
+Username.Font = Enum.Font.SourceSans
+Username.Text = "Username"
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+
+Password.Name = "Password"
+Password.Parent = Login
+Password.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Password.BorderColor3 = Color3.fromRGB(0, 255, 247)
+Password.BorderSizePixel = 2
+Password.Position = UDim2.new(0.15126051, 0, 0.664819896, 0)
+Password.Size = UDim2.new(0, 415, 0, 58)
+Password.Font = Enum.Font.SourceSans
+Password.Text = "Password"
+Password.TextColor3 = Color3.fromRGB(255, 255, 255)
+Password.TextScaled = true
+Password.TextSize = 14.000
+Password.TextWrapped = true
+
+Login_2.Name = "Login"
+Login_2.Parent = Login
+Login_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Login_2.BorderColor3 = Color3.fromRGB(0, 251, 255)
+Login_2.BorderSizePixel = 2
+Login_2.Position = UDim2.new(0.331092447, 0, 0.861495852, 0)
+Login_2.Size = UDim2.new(0, 200, 0, 50)
+Login_2.Font = Enum.Font.SourceSans
+Login_2.Text = "Login to Vape Roblox ™"
+Login_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login_2.TextScaled = true
+Login_2.TextSize = 14.000
+Login_2.TextWrapped = true
+
+Circle.Name = "Circle"
+Circle.Parent = game.StarterGui["VapeV4"].Login.Login.RippleEffect
+Circle.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle.BackgroundTransparency = 1.000
+Circle.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle.ZIndex = 10
+Circle.Image = "rbxassetid://266543268"
+Circle.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle.ImageTransparency = 0.500
+
+FirstTime.Name = "FirstTime"
+FirstTime.Parent = VapeV4
+FirstTime.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+FirstTime.BorderColor3 = Color3.fromRGB(0, 255, 255)
+FirstTime.BorderSizePixel = 2
+FirstTime.Position = UDim2.new(0.360401452, 0, 0.167202577, 0)
+FirstTime.Size = UDim2.new(0, 568, 0, 440)
+
+Vape_4.Name = "Vape"
+Vape_4.Parent = FirstTime
+
+VA_3.Name = "VA"
+VA_3.Parent = Vape_4
+VA_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VA_3.BorderSizePixel = 0
+VA_3.Size = UDim2.new(0, 268, 0, 140)
+VA_3.Image = "http://www.roblox.com/asset/?id=9375953215"
+
+PE_3.Name = "PE"
+PE_3.Parent = Vape_4
+PE_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PE_3.BorderSizePixel = 0
+PE_3.Position = UDim2.new(0.469851226, 0, 0, 0)
+PE_3.Size = UDim2.new(0, 301, 0, 140)
+PE_3.Image = "http://www.roblox.com/asset/?id=9375955406"
+
+Text.Name = "Text"
+Text.Parent = FirstTime
+
+TextLabel.Parent = Text
+TextLabel.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 0.413636357, 0)
+TextLabel.Size = UDim2.new(0, 568, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "In order to get started, you'll need to configure the keybinds & themes!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Text
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.527272701, 0)
+TextLabel_2.Size = UDim2.new(0, 568, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "You can skip this part if you want to keep the default settings."
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Text
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.640909076, 0)
+TextLabel_3.Size = UDim2.new(0, 568, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "If you wish to keep the default settings, you can take a look at any of the default keybinds in our website!"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Text
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0.75454545, 0)
+TextLabel_4.Size = UDim2.new(0, 568, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "You can configure this later."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Text
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0, 0, 0.311363637, 0)
+TextLabel_5.Size = UDim2.new(0, 568, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Hello! Looks like it's your first time using Vape V4."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Done.Name = "Done"
+Done.Parent = FirstTime
+Done.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Done.BorderColor3 = Color3.fromRGB(0, 251, 255)
+Done.BorderSizePixel = 2
+Done.Position = UDim2.new(0.323943675, 0, 0.886363626, 0)
+Done.Size = UDim2.new(0, 200, 0, 50)
+Done.Font = Enum.Font.SourceSans
+Done.Text = "OKAY, TAKE ME TO THE CONFIGURATION PAGE"
+Done.TextColor3 = Color3.fromRGB(255, 255, 255)
+Done.TextScaled = true
+Done.TextSize = 14.000
+Done.TextWrapped = true
+
+Circle_2.Name = "Circle"
+Circle_2.Parent = game.StarterGui["VapeV4"].FirstTime.Done.RippleEffect
+Circle_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_2.BackgroundTransparency = 1.000
+Circle_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_2.ZIndex = 10
+Circle_2.Image = "rbxassetid://266543268"
+Circle_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_2.ImageTransparency = 0.500
+
+Configurations.Name = "Configurations"
+Configurations.Parent = VapeV4
+Configurations.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Configurations.BorderColor3 = Color3.fromRGB(0, 255, 255)
+Configurations.BorderSizePixel = 2
+Configurations.Position = UDim2.new(0.354927003, 0, 0.146302253, 0)
+Configurations.Size = UDim2.new(0, 568, 0, 440)
+Configurations.Visible = false
+
+Vape_5.Name = "Vape"
+Vape_5.Parent = Configurations
+
+VA_4.Name = "VA"
+VA_4.Parent = Vape_5
+VA_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VA_4.BorderSizePixel = 0
+VA_4.Size = UDim2.new(0, 268, 0, 140)
+VA_4.Image = "http://www.roblox.com/asset/?id=9375953215"
+
+PE_4.Name = "PE"
+PE_4.Parent = Vape_5
+PE_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PE_4.BorderSizePixel = 0
+PE_4.Position = UDim2.new(0.469851226, 0, 0, 0)
+PE_4.Size = UDim2.new(0, 301, 0, 140)
+PE_4.Image = "http://www.roblox.com/asset/?id=9375955406"
+
+Config.Name = "Config"
+Config.Parent = Configurations
+
+KeyConfig.Name = "KeyConfig"
+KeyConfig.Parent = Config
+KeyConfig.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+KeyConfig.BorderColor3 = Color3.fromRGB(0, 251, 255)
+KeyConfig.BorderSizePixel = 2
+KeyConfig.Position = UDim2.new(0.218309864, 0, 0.354545444, 0)
+KeyConfig.Size = UDim2.new(0, 76, 0, 63)
+KeyConfig.Font = Enum.Font.SourceSans
+KeyConfig.Text = "E"
+KeyConfig.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyConfig.TextScaled = true
+KeyConfig.TextSize = 14.000
+KeyConfig.TextWrapped = true
+
+Text_2.Name = "Text"
+Text_2.Parent = Config
+
+TextLabel_6.Parent = Text_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 251, 255)
+TextLabel_6.BorderSizePixel = 2
+TextLabel_6.Position = UDim2.new(0, 0, 0.347727269, 0)
+TextLabel_6.Size = UDim2.new(0, 108, 0, 66)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Key to Toggle GUI ON / OFF"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = Text_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 251, 255)
+TextLabel_7.BorderSizePixel = 2
+TextLabel_7.Position = UDim2.new(0, 0, 0.600000024, 0)
+TextLabel_7.Size = UDim2.new(0, 568, 0, 25)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "MORE COMING SOON"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+Done_2.Name = "Done"
+Done_2.Parent = Configurations
+Done_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Done_2.BorderColor3 = Color3.fromRGB(0, 251, 255)
+Done_2.BorderSizePixel = 2
+Done_2.Position = UDim2.new(0.30457747, 0, 0.886363626, 0)
+Done_2.Size = UDim2.new(0, 200, 0, 50)
+Done_2.Font = Enum.Font.SourceSans
+Done_2.Text = "Done"
+Done_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Done_2.TextScaled = true
+Done_2.TextSize = 14.000
+Done_2.TextWrapped = true
+
+Circle_3.Name = "Circle"
+Circle_3.Parent = game.StarterGui["VapeV4"].Configurations.Done.RippleEffect
+Circle_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_3.BackgroundTransparency = 1.000
+Circle_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_3.ZIndex = 10
+Circle_3.Image = "rbxassetid://266543268"
+Circle_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_3.ImageTransparency = 0.500
+
+VapeGUI.Name = "VapeGUI"
+VapeGUI.Parent = VapeV4
+VapeGUI.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+VapeGUI.BorderColor3 = Color3.fromRGB(0, 255, 255)
+VapeGUI.BorderSizePixel = 2
+VapeGUI.Position = UDim2.new(0.481751829, 0, 0, 0)
+VapeGUI.Size = UDim2.new(0, 568, 0, 85)
+VapeGUI.Visible = false
+
+Vape_6.Name = "Vape"
+Vape_6.Parent = VapeGUI
+
+VA_5.Name = "VA"
+VA_5.Parent = Vape_6
+VA_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VA_5.BorderSizePixel = 0
+VA_5.Position = UDim2.new(-0.92957747, 0, 0, 0)
+VA_5.Size = UDim2.new(0, 516, 0, 236)
+VA_5.Image = "http://www.roblox.com/asset/?id=9375953215"
+
+PE_5.Name = "PE"
+PE_5.Parent = Vape_6
+PE_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PE_5.BorderSizePixel = 0
+PE_5.Position = UDim2.new(-0.0228113532, 0, 0, 0)
+PE_5.Size = UDim2.new(0, 580, 0, 236)
+PE_5.Image = "http://www.roblox.com/asset/?id=9375955406"
+
+TotemOfUndying_2.Name = "TotemOfUndying"
+TotemOfUndying_2.Parent = VapeGUI
+TotemOfUndying_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TotemOfUndying_2.BorderColor3 = Color3.fromRGB(0, 251, 255)
+TotemOfUndying_2.BorderSizePixel = 2
+TotemOfUndying_2.Position = UDim2.new(-0.931337953, 0, 2.82754016, 0)
+TotemOfUndying_2.Size = UDim2.new(0, 200, 0, 50)
+TotemOfUndying_2.Font = Enum.Font.SourceSans
+TotemOfUndying_2.Text = "Totem of Undying (Click to Execute)"
+TotemOfUndying_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TotemOfUndying_2.TextScaled = true
+TotemOfUndying_2.TextSize = 14.000
+TotemOfUndying_2.TextWrapped = true
+
+Circle_4.Name = "Circle"
+Circle_4.Parent = game.StarterGui["VapeV4"].VapeGUI.TotemOfUndying.RippleEffect
+Circle_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_4.BackgroundTransparency = 1.000
+Circle_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_4.ZIndex = 10
+Circle_4.Image = "rbxassetid://266543268"
+Circle_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_4.ImageTransparency = 0.500
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = VapeGUI
+Aimbot.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 251, 255)
+Aimbot.BorderSizePixel = 2
+Aimbot.Position = UDim2.new(-0.540492892, 0, 2.82754016, 0)
+Aimbot.Size = UDim2.new(0, 200, 0, 50)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "AimBot"
+Aimbot.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14.000
+Aimbot.TextWrapped = true
+
+Circle_5.Name = "Circle"
+Circle_5.Parent = game.StarterGui["VapeV4"].VapeGUI.Aimbot.RippleEffect
+Circle_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_5.BackgroundTransparency = 1.000
+Circle_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_5.ZIndex = 10
+Circle_5.Image = "rbxassetid://266543268"
+Circle_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_5.ImageTransparency = 0.500
+
+Aimbot_2.Name = "Aimbot"
+Aimbot_2.Parent = VapeGUI
+Aimbot_2.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Aimbot_2.BorderColor3 = Color3.fromRGB(0, 251, 255)
+Aimbot_2.BorderSizePixel = 2
+Aimbot_2.Position = UDim2.new(0.802816927, 0, 2.82754016, 0)
+Aimbot_2.Size = UDim2.new(0, 97, 0, 50)
+Aimbot_2.Font = Enum.Font.SourceSans
+Aimbot_2.Text = "EXIT"
+Aimbot_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot_2.TextScaled = true
+Aimbot_2.TextSize = 14.000
+Aimbot_2.TextWrapped = true
+
+Circle_6.Name = "Circle"
+Circle_6.Parent = game.StarterGui["VapeV4"].VapeGUI.Aimbot.RippleEffect
+Circle_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Circle_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Circle_6.BackgroundTransparency = 1.000
+Circle_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+Circle_6.ZIndex = 10
+Circle_6.Image = "rbxassetid://266543268"
+Circle_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Circle_6.ImageTransparency = 0.500
+
+-- Scripts:
+
+local function RCYQ_fake_script() -- Settings.Script 
+	local script = Instance.new('Script', Settings)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.VapeGUI.Visible = true
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(RCYQ_fake_script)()
+local function RSQKNLQ_fake_script() -- Login_2.RippleEffect 
+	local script = Instance.new('LocalScript', Login_2)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(RSQKNLQ_fake_script)()
+local function IXMZ_fake_script() -- Login_2.Script 
+	local script = Instance.new('Script', Login_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(IXMZ_fake_script)()
+local function YQSNS_fake_script() -- VapeV4.Toggle 
+	local script = Instance.new('Script', VapeV4)
+
+	local userInputService = game:GetService("UserInputService")
+	
+	userInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode[script.Parent.Configurations.Config.KeyConfig.Text] then
+				script.Parent.Vape.Visible = true
+				userInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+					if input.UserInputType == Enum.UserInputType.Keyboard then
+						if input.KeyCode == Enum.KeyCode[script.Parent.Configurations.Config.KeyConfig.Text] then
+							script.Parent.Vape.Visible = false
+						end
+					end
+				end)
+			end
+		end
+	end)
+end
+coroutine.wrap(YQSNS_fake_script)()
+local function KWEBVPS_fake_script() -- Done.RippleEffect 
+	local script = Instance.new('LocalScript', Done)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(KWEBVPS_fake_script)()
+local function NBSB_fake_script() -- Done.Script 
+	local script = Instance.new('Script', Done)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Configurations.Visible = true
+	end)
+end
+coroutine.wrap(NBSB_fake_script)()
+local function FNRZ_fake_script() -- Done_2.RippleEffect 
+	local script = Instance.new('LocalScript', Done_2)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(FNRZ_fake_script)()
+local function FSSEP_fake_script() -- Done_2.Script 
+	local script = Instance.new('Script', Done_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Vape.Visible = true
+	end)
+end
+coroutine.wrap(FSSEP_fake_script)()
+local function VTHGCO_fake_script() -- TotemOfUndying_2.RippleEffect 
+	local script = Instance.new('LocalScript', TotemOfUndying_2)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(VTHGCO_fake_script)()
+local function OQPGIN_fake_script() -- TotemOfUndying_2.Script 
+	local script = Instance.new('Script', TotemOfUndying_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FolTakX/Totem-of-Undying-Script----Be-invincible-in-Roblox-/main/Totem%20of%20Undying%20Script.txt"))()
+	end)
+end
+coroutine.wrap(OQPGIN_fake_script)()
+local function PPHMNTS_fake_script() -- Aimbot.RippleEffect 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(PPHMNTS_fake_script)()
+local function JNHPGFU_fake_script() -- Aimbot.Script 
+	local script = Instance.new('Script', Aimbot)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		print("not done yet lol")
+	end)
+end
+coroutine.wrap(JNHPGFU_fake_script)()
+local function DHYBM_fake_script() -- Aimbot_2.RippleEffect 
+	local script = Instance.new('LocalScript', Aimbot_2)
+
+	-- NOTE: Make sure the ZIndex of the button used is higher than other GUI parts behind
+	--       it, or this will not work correctly!
+	
+	
+	
+	
+	local RippleColor        = Color3.fromRGB(0, 0, 0) -- RGB Color of the ripple effect, you can change it.
+	local RippleTransparency = 0.8 ---------------------------- Max is 1, Min is 0
+	local PixelSize          = 2000 --------------------------- The Max size of the ripple in pixels
+	local TimeLength         = 0.9 ---------------------------- How long the ripple animation is
+	local FadeLength         = 0.6 ---------------------------- How long it takes for the ripple to fade out
+	
+	
+	
+	-- Do NOT change anything in the script if you want it to work, unless you know how to script...
+	
+	
+	
+	-- Script Below
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	local frame = script.Parent
+	local rgb = Color3.fromRGB
+	local ud2 = UDim2.new
+	repeat
+		wait()
+	until game.Players.LocalPlayer
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	
+	frame.ClipsDescendants = true
+	frame.AutoButtonColor = false
+	
+	
+	function tweenInRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				TimeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				Size = ud2(0, PixelSize, 0, PixelSize);
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+		end)
+	end
+	
+	function fadeOutRipple(ripple)
+		spawn(function()
+			local TweenService = game:GetService("TweenService")
+			local Part = ripple
+			local Info = TweenInfo.new(
+				FadeLength,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.InOut,
+				0,
+				false,
+				0
+			)
+			local Goals = 
+			{
+				ImageTransparency = 1;
+			}
+			local Tween = TweenService:Create(Part, Info, Goals)
+			Tween:Play()
+			wait(FadeLength + 0.1)
+			ripple:Destroy()
+		end)
+	end
+	
+	frame.MouseButton1Down:Connect(function()
+		local done = false
+		local ripple = script.Circle:Clone()
+		ripple.Parent = frame
+		ripple.ZIndex = frame.ZIndex + 1
+		ripple.ImageColor3 = RippleColor
+		ripple.ImageTransparency = RippleTransparency
+		tweenInRipple(ripple)
+		frame.MouseButton1Up:Connect(function()
+			if done == false then
+				done = true
+				fadeOutRipple(ripple)
+			end
+		end)
+		wait(4);
+		done = true;
+		fadeOutRipple(ripple) -- if it doesnt detect that it was unselected
+	end)
+end
+coroutine.wrap(DHYBM_fake_script)()
+local function SMEWZUY_fake_script() -- Aimbot_2.Script 
+	local script = Instance.new('Script', Aimbot_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Vape.Visible = true
+	end)
+end
+coroutine.wrap(SMEWZUY_fake_script)()
+
+--Credits to @FolTakX!
