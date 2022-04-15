@@ -58,8 +58,8 @@ local Circle_6 = Instance.new("ImageLabel")
 --Properties:
 
 VapeV4.Name = "VapeV4"
-VapeV4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 VapeV4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+VapeV4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Vape.Name = "Vape"
 Vape.Parent = VapeV4
